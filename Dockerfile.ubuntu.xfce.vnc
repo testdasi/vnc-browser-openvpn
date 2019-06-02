@@ -62,6 +62,9 @@ ADD ./src/common/xfce/ $HOME/
 ### Install TOR
 RUN $INST_SCRIPTS/tor.sh
 
+### Install OpenVPN
+RUN $INST_SCRIPTS/vpn.sh
+
 ### configure startup
 RUN $INST_SCRIPTS/libnss_wrapper.sh
 ADD ./src/common/scripts $STARTUPDIR
