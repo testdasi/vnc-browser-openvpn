@@ -5,6 +5,7 @@ gpg --homedir "$HOME/.local/share/torbrowser/gnupg_homedir" --refresh-keys --key
 apt-get install -y torbrowser-launcher
 apt-get clean -y
 
+#Create desktop shortcut
 cat <<EOF >/headless/Desktop/TOR.desktop
 [Desktop Entry]
 Type=Application
