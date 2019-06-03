@@ -75,6 +75,7 @@ RUN apt-get dist-upgrade -y
 RUN apt-get clean -y
 RUN apt-get autoclean -y
 RUN apt-get autoremove -y
+RUN gpg --homedir "$HOME/.local/share/torbrowser/gnupg_homedir" --refresh-keys --keyserver keyserver.ubuntu.com
 
 USER 1000
 
