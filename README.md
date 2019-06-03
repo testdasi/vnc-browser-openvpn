@@ -2,7 +2,7 @@
 
 This repository contains a collection of Docker images with headless VNC environments.
 
-**This fork only changes Ubuntu with Xfce4 image to add Tor**
+**This fork only changes Ubuntu with Xfce4 image to use latest version and add Tor**
 
 Each Docker image is installed with the following components:
 
