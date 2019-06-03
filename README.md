@@ -2,7 +2,7 @@
 
 This repository contains a collection of Docker images with headless VNC environments.
 
-**This fork only changes Ubuntu with Xfce4 image to add Tor and install latest firefox instead of version 45.**
+**This fork only changes Ubuntu with Xfce4 image to add Tor**
 
 Each Docker image is installed with the following components:
 
