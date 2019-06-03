@@ -4,7 +4,7 @@
 # MAINTAINER Simon Hofmann "simon.hofmann@consol.de"
 # ENV REFRESHED_AT 2018-10-29
 
-FROM ubuntu
+FROM ubuntu:latest
 MAINTAINER testdasi
 ENV REFRESHED_AT 2019-06-01
 
