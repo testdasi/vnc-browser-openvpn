@@ -38,6 +38,7 @@ function instFF() {
     exit -1
 }
 
+#testdasi: versions after this seems to be unstable
 instFF '45.9.0esr' '/usr/lib/firefox'
 
 #yum -y install firefox-45.7.0-2.el7.centos
